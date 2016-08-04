@@ -26,7 +26,12 @@
     <% end %>
   </ul>
 
-<%= yield %>
+  <%= yield %>
 
+  <footer>
+    This is our 99 Cats site. Please feel free to browse!
+    <%= yield :footer %>
+  </footer>
+  
 </body>
 </html>
